@@ -6,34 +6,8 @@
     android:columnCount="3"
     android:orientation="vertical" >
 
-    <ImageView
-        android:id="@+id/button1"
-        android:layout_width="137dp"
-        android:layout_height="137dp"
-        android:layout_below="@+id/button2"
-        android:layout_marginRight="14dp"
-        android:layout_toLeftOf="@+id/button2"
-        android:scaleType="fitStart"
-        android:src="@drawable/blue_button2" />
 
-    <ImageView
-        android:id="@+id/button4"
-        android:layout_width="137dp"
-        android:layout_height="137dp"
-        android:layout_alignTop="@+id/button1"
-        android:layout_toRightOf="@+id/button1"
-        android:scaleType="fitStart"
-        android:src="@drawable/blue_button2" />
 
-    <ImageView
-        android:id="@+id/button3"
-        android:layout_width="137dp"
-        android:layout_height="137dp"
-        android:layout_above="@+id/button1"
-        android:layout_alignLeft="@+id/button1"
-        android:scaleType="fitStart"
-        android:src="@drawable/blue_button2"
-        android:onClick="highscores" />
 
     <ImageView
         android:id="@+id/button2"
@@ -45,5 +19,35 @@
         android:scaleType="fitStart"
         android:src="@drawable/blue_button2"
         android:onClick="game" />
+
+        <ImageView
+        android:id="@+id/button1"
+        android:layout_width="137dp"
+        android:layout_height="137dp"
+        android:layout_below="@id/button2"
+        android:layout_marginRight="14dp"
+        android:layout_toLeftOf="@id/button2"
+        android:scaleType="fitStart"
+        android:src="@drawable/blue_button2" />
+            <ImageView
+        android:id="@+id/button3"
+        android:layout_width="137dp"
+        android:layout_height="137dp"
+        android:layout_above="@id/button1"
+        android:layout_alignLeft="@id/button1"
+        android:scaleType="fitStart"
+        android:src="@drawable/blue_button2"
+        android:onClick="highscores" />
+            <ImageView
+        android:id="@+id/button4"
+        android:layout_width="137dp"
+        android:layout_height="137dp"
+        android:layout_alignTop="@id/button1"
+        android:layout_toRightOf="@id/button1"
+        android:scaleType="fitStart"
+        android:src="@drawable/blue_button2"
+        android:onClick="credits" />
+
+
 
 </RelativeLayout>

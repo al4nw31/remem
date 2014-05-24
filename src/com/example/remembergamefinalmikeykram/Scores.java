@@ -70,8 +70,6 @@ public class Scores extends ActionBarActivity {
 	}
 	
 	
-	public void game(){
-		
-	}
+
 
 }

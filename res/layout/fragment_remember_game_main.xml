@@ -21,7 +21,6 @@
         android:layout_marginRight="52dp"
         android:text="Tap to continue"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:typeface="serif"
         android:textColor="#C1CDCD" />
 
 </RelativeLayout>
