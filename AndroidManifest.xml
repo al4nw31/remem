@@ -7,6 +7,7 @@
     <uses-sdk
         android:minSdkVersion="14"
         android:targetSdkVersion="19" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -24,11 +25,11 @@
         </activity>
         <activity android:name=".IntroScreen" >
         </activity>
-                <activity android:name=".ActualGame" >
+        <activity android:name=".ActualGame" >
         </activity>
-                <activity android:name=".Scores" >
+        <activity android:name=".Scores" >
         </activity>
-                <activity android:name=".Credits" >
+        <activity android:name=".Credits" >
         </activity>
     </application>
 

@@ -5,10 +5,6 @@
     android:background="@drawable/title_screen3"
     android:orientation="vertical" >
 
-
-
-
-
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
@@ -20,6 +16,7 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="#C1CDCD" />
 
+    
     <ImageView
         android:id="@+id/buttonblue2"
         android:layout_width="137dp"
@@ -27,22 +24,28 @@
         android:layout_above="@+id/buttonblue"
         android:layout_alignLeft="@+id/buttonblue"
         android:scaleType="fitStart"
-        android:src="@drawable/blue_button2" />
-        <ImageView
+        android:onClick=""
+        android:src="@drawable/bluebutton2" />
+
+    <ImageView
         android:id="@+id/buttonblue3"
         android:layout_width="137dp"
         android:layout_height="137dp"
         android:layout_alignLeft="@id/buttonblue2"
         android:layout_alignParentBottom="true"
         android:scaleType="fitStart"
-        android:src="@drawable/blue_button2" />
-            <ImageView
+        android:src="@drawable/bluebutton2" />
+
+    
+    <ImageView
         android:id="@+id/buttonblue"
         android:layout_width="137dp"
         android:layout_height="137dp"
         android:layout_above="@id/buttonblue3"
         android:layout_centerHorizontal="true"
         android:scaleType="fitStart"
-        android:src="@drawable/green_button" />
+        android:src="@drawable/bluebutton2" />
+    
+
 
 </RelativeLayout>
